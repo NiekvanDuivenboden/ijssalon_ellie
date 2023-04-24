@@ -6,9 +6,9 @@ print(mijn_functie_1(2))
 
 '''vraag 3'''
 def mijn_functie_2(a,b):
-    print(a+b)
-    print(a-b)
-    print(a*b)
-    print(a/b)
-
-print(mijn_functie_2(12,3))
+    uitvoer_lijst = []
+    uitvoer_lijst.append(a+b)
+    uitvoer_lijst.append(a-b)
+    uitvoer_lijst.append(a*b)
+    uitvoer_lijst.append(a/b)
+    return uitvoer_lijst
